@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4DE96973-22C2-E33E-8DA0-E239E200A762" name="Course">
+<createdBy>C0470994</createdBy>
+<createdTime>2023-07-28 17:21:44 UTC</createdTime>
+<ownerDesignName>Sample_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="471BE9B9-4C12-947C-BCB2-97BEB8628223" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Course</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COURSE_ID" id="BD5E570D-4528-DF2E-9BEA-B8CA56D31ADD">
+<createdBy>C0470994</createdBy>
+<createdTime>2023-07-28 17:22:20 UTC</createdTime>
+<comment><![CDATA[Primary key of Course table.]]></comment>
+<ownerDesignName>Sample_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="471BE9B9-4C12-947C-BCB2-97BEB8628223" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COURSE_NAME" id="4CADB20A-CC99-BE1D-C4C3-11E033702ACE">
+<createdBy>C0470994</createdBy>
+<createdTime>2023-07-28 17:22:57 UTC</createdTime>
+<ownerDesignName>Sample_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="471BE9B9-4C12-947C-BCB2-97BEB8628223" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="06DBFDE2-675A-280C-AB58-A05C5517D673" name="Course PK">
+<createdBy>C0470994</createdBy>
+<createdTime>2023-07-28 17:22:38 UTC</createdTime>
+<ownerDesignName>Sample_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="471BE9B9-4C12-947C-BCB2-97BEB8628223" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BD5E570D-4528-DF2E-9BEA-B8CA56D31ADD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

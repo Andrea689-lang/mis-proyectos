@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7667702A-78FC-A316-FEBC-2C7CD5C6A14E" name="ClassList">
+<createdBy>C0470994</createdBy>
+<createdTime>2023-07-28 17:39:50 UTC</createdTime>
+<generatorID>3C309648-9AAB-BB6A-B113-85DD08289D85</generatorID>
+<ownerDesignName>Sample_Data_Model</ownerDesignName>
+<abbreviation>ClassList</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STUDENT_ID" id="11DEE970-8CDA-48ED-6544-237E0275E04A">
+<createdBy>C0470994</createdBy>
+<createdTime>2023-07-28 17:39:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Primary key in the Classlist table.]]></commentInRDBMS>
+<generatorID>31D31DAB-7849-0E68-F05A-B4492F8BF68C</generatorID>
+<ownerDesignName>Sample_Data_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COURSE_ID" id="37427763-7DFC-209B-8BB9-BFCE811DD502">
+<createdBy>C0470994</createdBy>
+<createdTime>2023-07-28 17:39:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Primary key in the classlist table.]]></commentInRDBMS>
+<generatorID>E9587B62-85E0-5F3B-F141-33C8532E6597</generatorID>
+<ownerDesignName>Sample_Data_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GRADE" id="607E7F05-D441-82EC-905B-370FABF57D08">
+<createdBy>C0470994</createdBy>
+<createdTime>2023-07-28 17:39:50 UTC</createdTime>
+<generatorID>3B5294FB-EB0B-045C-C396-60B2087FBE4C</generatorID>
+<ownerDesignName>Sample_Data_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COURSE_ID1" id="0AFB1A7D-2E50-60F8-29B5-CDD55967C752">
+<createdBy>C0470994</createdBy>
+<createdTime>2023-07-28 17:39:50 UTC</createdTime>
+<comment><![CDATA[Primary key of Course table.]]></comment>
+<generatorID>D746F35F-5594-37B2-1D16-A9DF86559AC1</generatorID>
+<ownerDesignName>Sample_Data_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6FDA3DB8-DD48-CD9E-7CF6-7439A8D2AAFB" referredColumn="3B30B06C-DD3D-5C19-DC42-174A317A75DD"/>
+</associations>
+</Column>
+<Column name="STUDENT_ID1" id="EB0E45FA-92D4-05BF-ED37-EBE5D8E4E096">
+<createdBy>C0470994</createdBy>
+<createdTime>2023-07-28 17:39:50 UTC</createdTime>
+<generatorID>86DDC0B4-4E20-4864-4AEF-1BCED9FAA9EF</generatorID>
+<ownerDesignName>Sample_Data_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5A833142-6F5D-0AB6-A5D6-BD5D1F271F3C" referredColumn="268916E3-8F2A-7EC3-45C0-EED14AE8F423"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8CC55C35-8E9D-2D97-EB1D-7E9DF7361E42" name="ClassList_PK">
+<createdBy>C0470994</createdBy>
+<createdTime>2023-07-28 17:39:50 UTC</createdTime>
+<generatorID>CB1F59BB-CF1C-4845-694E-B931A2B93FB6</generatorID>
+<ownerDesignName>Sample_Data_Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11DEE970-8CDA-48ED-6544-237E0275E04A"/>
+<colUsage columnID="37427763-7DFC-209B-8BB9-BFCE811DD502"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1191EE66-7CD6-B7F0-6DA4-A149B3ED7D6A" name="ClassList_Course_FK">
+<createdBy>C0470994</createdBy>
+<createdTime>2023-07-28 17:39:50 UTC</createdTime>
+<generatorID>C3485D68-E53B-3776-F36D-CC95AB7BEB0A</generatorID>
+<ownerDesignName>Sample_Data_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0AFB1A7D-2E50-60F8-29B5-CDD55967C752"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="27FFD939-75ED-F5F6-4F9F-EAF22D30A63A" name="ClassList_Student_FK">
+<createdBy>C0470994</createdBy>
+<createdTime>2023-07-28 17:39:50 UTC</createdTime>
+<generatorID>011EBB84-0594-A312-0BB6-8B044AF815D1</generatorID>
+<ownerDesignName>Sample_Data_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB0E45FA-92D4-05BF-ED37-EBE5D8E4E096"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

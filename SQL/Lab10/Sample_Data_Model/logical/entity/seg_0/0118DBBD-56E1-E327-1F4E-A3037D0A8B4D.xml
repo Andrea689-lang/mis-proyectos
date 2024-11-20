@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0118DBBD-56E1-E327-1F4E-A3037D0A8B4D" name="Student">
+<createdBy>C0470994</createdBy>
+<createdTime>2023-07-28 17:10:59 UTC</createdTime>
+<ownerDesignName>Sample_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="471BE9B9-4C12-947C-BCB2-97BEB8628223" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Student</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="STUDENT_ID" id="E4C702A8-E959-4A9F-8DBB-E6E88173D434">
+<createdBy>C0470994</createdBy>
+<createdTime>2023-07-28 17:13:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[Primary key in the Student table.]]></commentInRDBMS>
+<ownerDesignName>Sample_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="471BE9B9-4C12-947C-BCB2-97BEB8628223" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STUDENT_NAME" id="298862A8-D2FB-6DA6-EEAF-69517C0B23BD">
+<createdBy>C0470994</createdBy>
+<createdTime>2023-07-28 17:17:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Full name of the stidemt]]></commentInRDBMS>
+<ownerDesignName>Sample_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="471BE9B9-4C12-947C-BCB2-97BEB8628223" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="13B1D190-2C28-3AB2-A9E8-B953D7AE5684" name="Student PK">
+<createdBy>C0470994</createdBy>
+<createdTime>2023-07-28 17:15:49 UTC</createdTime>
+<ownerDesignName>Sample_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="471BE9B9-4C12-947C-BCB2-97BEB8628223" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E4C702A8-E959-4A9F-8DBB-E6E88173D434</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

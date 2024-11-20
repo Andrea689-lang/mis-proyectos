@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CD1E3A88-B678-750A-EDFF-CAE6C663552E" name="Student">
+<createdBy>C0470994</createdBy>
+<createdTime>2023-07-28 17:39:50 UTC</createdTime>
+<generatorID>0118DBBD-56E1-E327-1F4E-A3037D0A8B4D</generatorID>
+<ownerDesignName>Sample_Data_Model</ownerDesignName>
+<abbreviation>Student</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STUDENT_ID" id="268916E3-8F2A-7EC3-45C0-EED14AE8F423">
+<createdBy>C0470994</createdBy>
+<createdTime>2023-07-28 17:39:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Primary key in the Student table.]]></commentInRDBMS>
+<generatorID>E4C702A8-E959-4A9F-8DBB-E6E88173D434</generatorID>
+<ownerDesignName>Sample_Data_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STUDENT_NAME" id="E7A1A381-6F8E-5518-22E2-AD250CD6B286">
+<createdBy>C0470994</createdBy>
+<createdTime>2023-07-28 17:39:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Full name of the stidemt]]></commentInRDBMS>
+<generatorID>298862A8-D2FB-6DA6-EEAF-69517C0B23BD</generatorID>
+<ownerDesignName>Sample_Data_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4B296975-C1BC-EDE8-382D-E6D4BD21AC89" name="Student_PK">
+<createdBy>C0470994</createdBy>
+<createdTime>2023-07-28 17:39:50 UTC</createdTime>
+<generatorID>13B1D190-2C28-3AB2-A9E8-B953D7AE5684</generatorID>
+<ownerDesignName>Sample_Data_Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="268916E3-8F2A-7EC3-45C0-EED14AE8F423"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="698294A0-62A1-57EB-EF63-A4C03A7D0D69" name="Course">
+<createdBy>C0470994</createdBy>
+<createdTime>2023-07-28 17:39:50 UTC</createdTime>
+<generatorID>4DE96973-22C2-E33E-8DA0-E239E200A762</generatorID>
+<ownerDesignName>Sample_Data_Model</ownerDesignName>
+<abbreviation>Course</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COURSE_ID" id="3B30B06C-DD3D-5C19-DC42-174A317A75DD">
+<createdBy>C0470994</createdBy>
+<createdTime>2023-07-28 17:39:50 UTC</createdTime>
+<comment><![CDATA[Primary key of Course table.]]></comment>
+<generatorID>BD5E570D-4528-DF2E-9BEA-B8CA56D31ADD</generatorID>
+<ownerDesignName>Sample_Data_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COURSE_NAME" id="566423CD-7914-3A6B-0C67-EC30319359F4">
+<createdBy>C0470994</createdBy>
+<createdTime>2023-07-28 17:39:50 UTC</createdTime>
+<generatorID>4CADB20A-CC99-BE1D-C4C3-11E033702ACE</generatorID>
+<ownerDesignName>Sample_Data_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9FCBB531-E250-F1DC-1C37-1CF350168BC5" name="Course_PK">
+<createdBy>C0470994</createdBy>
+<createdTime>2023-07-28 17:39:50 UTC</createdTime>
+<generatorID>06DBFDE2-675A-280C-AB58-A05C5517D673</generatorID>
+<ownerDesignName>Sample_Data_Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B30B06C-DD3D-5C19-DC42-174A317A75DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

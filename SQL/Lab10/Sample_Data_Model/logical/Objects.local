@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="3C309648-9AAB-BB6A-B113-85DD08289D85" name="ClassList" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="17A73C14-E905-F74A-C705-55725EA361D5" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="4DE96973-22C2-E33E-8DA0-E239E200A762" name="Course" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="17A73C14-E905-F74A-C705-55725EA361D5" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="0118DBBD-56E1-E327-1F4E-A3037D0A8B4D" name="Student" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="17A73C14-E905-F74A-C705-55725EA361D5" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="C3485D68-E53B-3776-F36D-CC95AB7BEB0A" name="Course_Classlist" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="17A73C14-E905-F74A-C705-55725EA361D5" propertySourceId="4DE96973-22C2-E33E-8DA0-E239E200A762" propertyTargetId="3C309648-9AAB-BB6A-B113-85DD08289D85"/>
+   <object objectType="Relation" objectID="011EBB84-0594-A312-0BB6-8B044AF815D1" name="Student_Classlist" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="17A73C14-E905-F74A-C705-55725EA361D5" propertySourceId="0118DBBD-56E1-E327-1F4E-A3037D0A8B4D" propertyTargetId="3C309648-9AAB-BB6A-B113-85DD08289D85"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>
